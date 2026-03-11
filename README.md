@@ -17,4 +17,4 @@ Tipagem de Dados: Uso de variáveis numéricas (float, int) e de caracteres (cha
 
 \
 Como Executar\
-Código escrito e testado no ambiente Dev-C++. Basta baixar o arquivo .cpp, compilar na sua IDE de preferência e executar no terminal.6.
+Código escrito e testado no ambiente Dev-C++. Basta baixar o arquivo .cpp, compilar na sua IDE de preferência e executar no terminal.
