@@ -1,20 +1,17 @@
-Conversor de Temperatura
+# Temperature Converter
 
-Programa interativo de terminal desenvolvido em C++ para converter temperaturas entre graus Celsius e Fahrenheit. Este projeto foi construído para praticar e consolidar fundamentos de lógica de programação.
+An interactive terminal program developed in C++ to convert temperatures between Celsius and Fahrenheit. This project was built to practice and consolidate foundational programming logic.
 
-\
-Funcionalidades\
-Menu Interativo: O usuário escolhe a direção da conversão (Celsius para Fahrenheit ou vice-versa).\
-Loop Contínuo: O programa pergunta se o usuário deseja realizar uma nova conversão sem precisar fechar e abrir o aplicativo novamente.\
-Reconhecimento de Caracteres: O sistema identifica tanto letras maiúsculas quanto minúsculas ('S' ou 's') para manter o loop rodando perfeitamente.
+## Features
+* **Interactive Menu:** The user chooses the conversion direction (Celsius to Fahrenheit or vice versa).
+* **Continuous Loop:** The program asks if the user wants to perform a new conversion without needing to close and reopen the application.
+* **Character Recognition:** The system identifies both uppercase and lowercase letters ('S' or 's') to keep the loop running perfectly.
 
-\
-Tecnologias e Estruturas Utilizadas\
-Linguagem: C++\
-Controle de Fluxo: Estruturas de decisão (if / else if) para roteamento do menu.\
-Loops de repetição: Estrutura do-while integrada com operadores lógicos OR (| |).\
-Tipagem de Dados: Uso de variáveis numéricas (float, int) e de caracteres (char).
+## Technologies and Structures Used
+* **Language:** C++
+* **Control Flow:** Decision structures (`if` / `else if`) for menu routing.
+* **Repetition Loops:** `do-while` structure integrated with logical OR (`||`) operators.
+* **Data Typing:** Use of numeric (`float`, `int`) and character (`char`) variables.
 
-\
-Como Executar\
-Código escrito e testado no ambiente Dev-C++. Basta baixar o arquivo .cpp, compilar na sua IDE de preferência e executar no terminal.
+## How to Run
+Code written and tested in the Dev-C++ environment. Simply download the `.cpp` file, compile it in your preferred IDE, and run it in the terminal.
