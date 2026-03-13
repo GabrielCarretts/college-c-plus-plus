@@ -19,3 +19,6 @@ This repository acts as a live sandbox for mastering Git version control (branch
 * Integrating `system("cls")` for terminal screen refreshing.
 * Implementing strict error handling (e.g., division by zero prevention).
 * Handling invalid operator inputs.
+
+## How to Run
+Code written and tested in the Dev-C++ environment. Simply download the `.cpp` file, compile it in your preferred IDE, and run it in the terminal.
