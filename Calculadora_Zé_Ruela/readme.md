@@ -1,4 +1,4 @@
-# Zé Ruela Calculator
+# C++ Calculator
 
 A terminal-based C++ application designed to process basic arithmetic operations. This project serves as a practical application of foundational control flow, input handling, and terminal output formatting.
 
