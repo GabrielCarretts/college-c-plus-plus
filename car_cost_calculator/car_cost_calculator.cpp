@@ -20,7 +20,7 @@ int main()
         while (factory_cost < 0)
         {
             cout << "\033[31m" << "\nInvalid number! Please try again." << "\033[0m";
-            cout << "\033[0;33m" << "\nType in a valid cost: " << "\033[0m";
+            cout << "\033[0;33m" << "\n\nType in a valid cost: " << "\033[0m";
             cin >> factory_cost;
         }
 
