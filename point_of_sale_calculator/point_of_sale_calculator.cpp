@@ -17,7 +17,7 @@ int main()
     do
     {
         grand_total = 0;
-        cout << "\033[0;33m" << "\n=====> Welome to the store! <=====" << "\033[0m";
+        cout << "\033[0;33m" << "\n=====> Welcome to the store! <=====" << "\033[0m";
 
         for (int i = 1; i <= 3; i++)
         {
