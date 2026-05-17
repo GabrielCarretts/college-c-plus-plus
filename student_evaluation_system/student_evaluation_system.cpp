@@ -1,5 +1,3 @@
-// Construa um algoritmo que leia o nome e a nota de 20 alunos e ao final informe a média da turma e se existe algum aluno com nota igual a 0 (zero). //
-
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -7,9 +5,9 @@ int main()
 {
     // Colors //
     // Colors //
-    string const COLOR_BLUE = "\033[1;34m";   // For the Main Banners and Headers
-    string const COLOR_YELLOW = "\033[1;33m"; // For the Input Prompts (Name, Grade)
-    string const COLOR_GREEN = "\033[1;32m";  // For Success (Highest grade, passing average)
+    string const COLOR_BLUE = "\033[1;34m";
+    string const COLOR_YELLOW = "\033[1;33m";
+    string const COLOR_GREEN = "\033[1;32m";
     string const UNDERLINED_TEXT = "\033[4m";
     string const COLOR_RED = "\033[1;31m";
     string const COLOR_RESET = "\033[0m";
