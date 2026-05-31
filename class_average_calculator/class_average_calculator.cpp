@@ -91,8 +91,6 @@ int main()
         }
         cin.ignore();
     } while (answer == 'y' || answer == 'Y');
-
-    cout << endl;
     system("pause");
     return 0;
 }
