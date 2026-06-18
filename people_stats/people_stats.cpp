@@ -71,8 +71,7 @@ int main()
 
         // Output //
         cout << fixed << setprecision(2);
-        cout << COLOR_MAGENTA << UNDERLINED_TEXT << "\n====> Results <====\n"
-             << COLOR_RESET;
+        cout << COLOR_MAGENTA << UNDERLINED_TEXT << "\n====> Results <====\n" << COLOR_RESET;
 
         cout << COLOR_DIM << "\nAverage age is: " << COLOR_CYAN << age_average << COLOR_RESET << endl;
         cout << COLOR_DIM << "\nYoungest name: " << COLOR_CYAN << youngest_name << COLOR_RESET;
