@@ -137,14 +137,16 @@ int main()
 
             cout << COLOR_CYAN << "\n\n====> RESULTS <====" << COLOR_RESET;
             cout << fixed << setprecision(2);
+            cout << COLOR_CYAN << "\n\n====> Age Average <====" << COLOR_RESET;
+            cout << COLOR_GREEN << "\nThe age average of the class is " << age_average << " years" << COLOR_RESET;
             cout << COLOR_CYAN << "\n\n====> Grade Average <====" << COLOR_RESET;
             if (male_grade_average > female_grade_average)
             {
-                cout << COLOR_GREEN << "\nThe male students have the higher grade average with " << male_grade_average << COLOR_RESET;
+                cout << COLOR_GREEN << "\nThe male students have the higher grade average with " << male_grade_average << " years" << COLOR_RESET;
             }
             else if (female_grade_average > male_grade_average)
             {
-                cout << COLOR_GREEN << "\nThe female students have the higher grade average with " << female_grade_average << COLOR_RESET;
+                cout << COLOR_GREEN << "\nThe female students have the higher grade average with " << female_grade_average << " years" << COLOR_RESET;
             }
             else
             {
@@ -221,7 +223,7 @@ int main()
             cout << "\nGrade: " << student_grade[best_student_index] << COLOR_RESET;
         }
 
-        cout << COLOR_YELLOW << "\n\nWould you like to calculate more students? (Y/N) " << COLOR_RESET;
+        cout << COLOR_YELLOW << "\n\nWould you like to input more students? (Y/N) " << COLOR_RESET;
         cin >> answer;
 
         while (answer != 'y' && answer != 'Y' && answer != 'n' && answer != 'N')
